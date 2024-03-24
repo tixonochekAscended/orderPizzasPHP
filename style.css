@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: rgb(14, 14, 20);
+}
+
+* {
+    font-family: "Hind Guntur", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+div#ui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.order {
+    background-color: rgb(110, 110, 110);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(69, 69, 69);
+    border-radius: 20px;
+    width: 350px;
+    height: 80px;
+    font-size: 25px;
+    padding-top: 10px;
+    margin: 15px;
+    transition: 0.05s ease-in-out;
+}
+.order:hover {
+    background-color: rgb(133, 132, 132);
+    border-color: rgb(84, 84, 84);
+}
+.order:active {
+    background-color: rgb(97, 114, 120);
+    border-color: rgb(44, 49, 52);
+    font-weight: 700;
+}
+
+.clear {
+    background-color: rgb(128, 81, 81);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(59, 36, 36);
+    border-radius: 20px;
+    width: 350px;
+    height: 80px;
+    font-size: 25px;
+    padding-top: 10px;
+    margin: 15px;
+    transition: 0.3s ease-in-out;
+}
+.clear:hover {
+    background-color: rgb(127, 62, 62);
+    border-color: rgb(63, 23, 23);
+}
+.clear:active {
+    background-color: rgb(127, 43, 43);
+    border-color: rgb(68, 12, 12);
+    font-weight: 700;
+}
+
+.ordered-list {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 20px;
+    width: 75vh;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: rgb(41, 41, 58);
+}
+.ordered-list .title {
+    color: rgb(255, 198, 141);
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.ordered-list-content {
+    padding: 20px;
+}
